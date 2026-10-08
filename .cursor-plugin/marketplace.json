@@ -1,0 +1,16 @@
+{
+  "name": "guangwu-skills",
+  "owner": {
+    "name": "Gu-Miao"
+  },
+  "metadata": {
+    "description": "guangwu 自用的 Cursor skills"
+  },
+  "plugins": [
+    {
+      "name": "guangwu-skills",
+      "source": "plugins/guangwu-skills",
+      "description": "guangwu 自用的 Cursor skills"
+    }
+  ]
+}

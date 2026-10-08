@@ -1,0 +1,12 @@
+{
+  "name": "guangwu-skills",
+  "displayName": "Guangwu Skills",
+  "version": "0.1.0",
+  "description": "guangwu 自用的 Cursor skills。",
+  "author": {
+    "name": "Gu-Miao"
+  },
+  "repository": "https://github.com/Gu-Miao/skills",
+  "keywords": ["skills", "cursor"],
+  "skills": "./skills/"
+}
