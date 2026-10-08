@@ -18,6 +18,11 @@ plugins/guangwu-skills/skills/<skill-name>/SKILL.md
 - `references/`：按需再读的长说明
 - `assets/`：模板、图片等静态文件
 
+
+## 已有 skill
+
+- `antfu`：Vue 3、Nuxt 和 TypeScript 的写法，按 Anthony Fu 的约定改成给 Cursor 用的简体中文说明。见 `plugins/guangwu-skills/skills/antfu/SKILL.md`。
+
 ## 新增一个 skill
 
 1. 复制 `plugins/guangwu-skills/skills/skill-template`。
