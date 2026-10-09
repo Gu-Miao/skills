@@ -4,12 +4,12 @@ guangwu 自用的 Cursor skill / rule 集合。只给 Cursor 用。
 
 ## 目录
 
-`	ext
+```text
 .cursor-plugin/marketplace.json
 plugins/guangwu-skills/.cursor-plugin/plugin.json
 plugins/guangwu-skills/skills/<skill-name>/SKILL.md
 plugins/guangwu-skills/rules/<rule-name>.mdc
-`
+```
 
 每个 skill 是一个文件夹，里面有 SKILL.md。文件夹名必须和 frontmatter 里的 name 一致：小写字母、数字、连字符。
 
