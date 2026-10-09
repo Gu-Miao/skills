@@ -1,0 +1,24 @@
+---
+description: 个人前端技术栈约定（Vue3 / Vite / SCSS 等），新建或未指定栈时遵循
+alwaysApply: true
+---
+
+# 前端技术栈
+
+个人全局约定。**已有项目优先跟随仓库现有栈**；新建（greenfield）或用户要求对齐时，按下列选型。
+
+与 antfu / UnoCSS 类指引冲突时，**以本栈为准**。
+
+## 核心
+
+- **框架**：Vue 3 + Pinia + vue-router
+- **构建**：Vite；新项目一律用官方脚手架（如 `npm create vite@latest`），不用第三方模板
+- **样式**：SCSS；**禁止** Tailwind、UnoCSS 等原子类框架（对 AI 写原子 class ≈ 写 CSS，优先 SCSS）
+- **时间**：dayjs
+- **图表**：echarts
+- **工具函数**：es-toolkit（项目已用 lodash 除外）
+- **UI**：未另行指定时用 reka-ui
+- **表格**：TanStack Table（Vue）
+- **类 Excel 表格**：Univer
+- **请求**：axios
+- **本地存储**：localforage，不用 `localStorage`
