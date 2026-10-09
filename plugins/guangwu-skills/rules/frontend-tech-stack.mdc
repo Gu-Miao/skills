@@ -7,13 +7,12 @@ alwaysApply: true
 
 个人全局约定。**已有项目优先跟随仓库现有栈**；新建（greenfield）或用户要求对齐时，按下列选型。
 
-与 antfu / UnoCSS 类指引冲突时，**以本栈为准**。
-
 ## 核心
 
 - **框架**：Vue 3 + Pinia + vue-router
-- **构建**：Vite；新项目一律用官方脚手架（如 `npm create vite@latest`），不用第三方模板
-- **死代码扫描**：Knip（未使用依赖、export、文件）；与 antfu 风格 CI 一致时可纳入 `ci` 脚本
+- **包管理器**：优先使用 pnpm
+- **构建**：Vite；新项目一律用官方脚手架（如 `pnpm create vite@latest`），不用第三方模板
+- **死代码扫描**：Knip（未使用依赖、export、文件）；可纳入 `ci` 脚本
 - **样式**：SCSS；**禁止** Tailwind、UnoCSS 等原子类框架（对 AI 写原子 class ≈ 写 CSS，优先 SCSS）
 - **时间**：dayjs
 - **图表**：echarts

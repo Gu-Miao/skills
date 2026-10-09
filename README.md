@@ -23,7 +23,7 @@ Rule 是 plugins/guangwu-skills/rules/ 下的 .mdc 文件，装成插件后由 C
 
 ## 已有 skill
 
-- antfu：Vue 3、Nuxt 和 TypeScript 的写法，按 Anthony Fu 的约定改成给 Cursor 用的简体中文说明。见 plugins/guangwu-skills/skills/antfu/SKILL.md。
+- git-commit：按中文 type+emoji 规范拆分并创建 Git 提交，写入单行 Co-Authored-By 署名（Agent名 + 模型名）。在 /git-commit 或用户要求提交代码时使用；Cursor 下会先自动区分 IDE/CLI ...。见 plugins/guangwu-skills/skills/git-commit/SKILL.md。
 
 ## 已有 rule
 
